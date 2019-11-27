@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/Users/lukedalli/jenkinsJets/calculatorLibrary/Subtract.h
+/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/Subtract.h
 
-/Users/lukedalli/jenkinsJets/calculatorLibrary/add.h
+/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/add.h
 
-/Users/lukedalli/jenkinsJets/calculatorLibrary/library.c
+/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.c
 multiply.h
-/Users/lukedalli/jenkinsJets/calculatorLibrary/multiply.h
+/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/multiply.h
 library.h
-/Users/lukedalli/jenkinsJets/calculatorLibrary/library.h
+/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.h
 Subtract.h
-/Users/lukedalli/jenkinsJets/calculatorLibrary/Subtract.h
+/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/Subtract.h
 add.h
-/Users/lukedalli/jenkinsJets/calculatorLibrary/add.h
+/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/add.h
 stdio.h
 -
 
-/Users/lukedalli/jenkinsJets/calculatorLibrary/library.h
+/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.h
 
-/Users/lukedalli/jenkinsJets/calculatorLibrary/multiply.h
+/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/multiply.h
 stdio.h
 -
 

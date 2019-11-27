@@ -25,14 +25,12 @@ int main(void)
                 printf("Please enter two numbers to add together: ");
                 scanf("%f" , &num1);
                 scanf("%f" , &num2);
-                printf("The addition of %.2f and %.2f is %.2f",num1,num2,add(num1,num2));
+                printf("The addition of %.2f and %.2f is %.2f\n",num1,num2,add(num1,num2));
                 break;
 
                 case 2:
                 printf("Multiplying\n");
                 printf("Please enter two numbers to multiply by each other");
-                scanf("%f" , &num1);
-                scanf("%f", &num2);
                 scanf("%f" , &num1);
                 scanf("%f", &num2);
                 printf("The multiplication of %.2f and %.2f is %.2f",num1,num2,multiply(num1,num2));
@@ -45,8 +43,8 @@ int main(void)
                 scanf("%f" , &num2);
                 printf("The result of %.2f minus %.2f is %.2f",num1,num2,Subtract(num1,num2));
                 break;
-
-                case 4:
+                
+                default:
                 break;
         }
 
