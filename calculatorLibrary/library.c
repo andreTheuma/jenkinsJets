@@ -20,7 +20,7 @@ void main()
                 printf("Please enter two numbers to add together");
                 scanf("%f" , add1);
                 scanf("%f" , add2);
-                add(add1,add2);
+                printf("The addition of %.2f and %.2f is %.2f",add1,add2,add(add1,add2);
                 break;
             case 2:
                 break;
