@@ -6,6 +6,7 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 /Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/Subtract.h
 
 /Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/add.h
@@ -19,12 +20,27 @@ Subtract.h
 /Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/Subtract.h
 add.h
 /Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/add.h
+=======
+/Users/lukedalli/jenkinsJets/calculatorLibrary/Subtract.h
+
+/Users/lukedalli/jenkinsJets/calculatorLibrary/add.h
+
+/Users/lukedalli/jenkinsJets/calculatorLibrary/library.c
+multiply.h
+/Users/lukedalli/jenkinsJets/calculatorLibrary/multiply.h
+library.h
+/Users/lukedalli/jenkinsJets/calculatorLibrary/library.h
+Subtract.h
+/Users/lukedalli/jenkinsJets/calculatorLibrary/Subtract.h
+add.h
+/Users/lukedalli/jenkinsJets/calculatorLibrary/add.h
+>>>>>>> 14eb84bfd1672eff86c960bcdbeb68b8d8cb5619
 stdio.h
 -
 
 /Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.h
 
-/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/multiply.h
+/Users/lukedalli/jenkinsJets/calculatorLibrary/multiply.h
 stdio.h
 -
 
