@@ -6,7 +6,7 @@ void main()
 {
     int option;
     int status;
-    int add1,add2;
+    float add1,add2;
 
     printf("Please enter an option\n");
    status = scanf("%d" , option);

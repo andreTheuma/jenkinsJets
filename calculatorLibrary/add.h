@@ -1,4 +1,4 @@
-int add(add1, addd2)
+float add(add1, add2)
 {
     return add1+add2;
 }
