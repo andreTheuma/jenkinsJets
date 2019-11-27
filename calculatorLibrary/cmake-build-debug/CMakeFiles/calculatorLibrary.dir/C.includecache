@@ -6,11 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.c
+/Users/lukedalli/jenkinsJets/calculatorLibrary/Subtract.h
+
+/Users/lukedalli/jenkinsJets/calculatorLibrary/add.h
+
+/Users/lukedalli/jenkinsJets/calculatorLibrary/library.c
 library.h
-/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.h
+/Users/lukedalli/jenkinsJets/calculatorLibrary/library.h
+Subtract.h
+/Users/lukedalli/jenkinsJets/calculatorLibrary/Subtract.h
+add.h
+/Users/lukedalli/jenkinsJets/calculatorLibrary/add.h
 stdio.h
 -
 
-/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.h
+/Users/lukedalli/jenkinsJets/calculatorLibrary/library.h
 

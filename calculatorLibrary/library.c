@@ -7,7 +7,7 @@ void main()
 {
     int option;
     int status;
-    float add1,add2;
+    float num1, num2;
 
     printf("Please enter an option\n");
    status = scanf("%d" , option);
@@ -18,14 +18,19 @@ void main()
         {
             case 1:
                 printf("Adding\n");
-                printf("Please enter two numbers to add together");
-                scanf("%f" , add1);
-                scanf("%f" , add2);
-                printf("The addition of %.2f and %.2f is %.2f",add1,add2,add(add1,add2));
+                printf("Please enter two numbers to add together: ");
+                scanf("%f" , num1);
+                scanf("%f" , num2);
+                printf("The addition of %.2f and %.2f is %.2f",num1,num2,add(num1,num2));
                 break;
             case 2:
                 break;
             case 3:
+                printf("Subtracting\n");
+                printf("Please enter 2 numbers to subtract the second from the first: ");
+                scanf("%f" , &num1);
+                scanf("%f" , &num2);
+                printf("The result of %.2f minus %.2f is %.2f",num1,num2,add(num2,num1));
                 break;
             case 4:
                 break;
