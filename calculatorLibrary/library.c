@@ -14,9 +14,9 @@ int main(void)
     do
 
     {
+        printf("1.Addition\n2.Multiplication\n3.Subtraction\n4.Division\n");
         printf("Please enter an option\n");
         status = scanf("%d" , &option);
-        printf("1.Addition\n2.Multiplication\n3.Subtraction\n4.Division\n");
 
         switch(option)
         {
@@ -26,9 +26,9 @@ int main(void)
                 scanf("%f" , &num1);
                 scanf("%f" , &num2);
                 printf("The addition of %.2f and %.2f is %.2f",num1,num2,add(num1,num2));
-
                 break;
-            case 2:
+
+                case 2:
                 printf("Multiplying\n");
                 printf("Please enter two numbers to multiply by each other");
                 scanf("%f" , &num1);
@@ -37,14 +37,16 @@ int main(void)
                 scanf("%f", &num2);
                 printf("The multiplication of %.2f and %.2f is %.2f",num1,num2,multiply(num1,num2));
                 break;
-            case 3:
+
+                case 3:
                 printf("Subtracting\n");
                 printf("Please enter 2 numbers to subtract the second from the first: ");
                 scanf("%f" , &num1);
                 scanf("%f" , &num2);
                 printf("The result of %.2f minus %.2f is %.2f",num1,num2,add(num1,num2));
                 break;
-            case 4:
+
+                case 4:
                 break;
         }
 
