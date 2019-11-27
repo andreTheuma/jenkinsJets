@@ -6,21 +6,3 @@
 
 #IncludeRegexTransform: 
 
-<<<<<<< HEAD
-/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.c
-library.h
-/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.h
-stdio.h
--
-
-/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.h
-=======
-/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.c
-library.h
-/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.h
-stdio.h
--
-
-/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.h
->>>>>>> 2b848e187f197f2d4f270cbeddbc27ba9e1e4e05
-

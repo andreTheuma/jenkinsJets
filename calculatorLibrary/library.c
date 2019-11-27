@@ -7,8 +7,9 @@ void main()
 {
     int option;
     int status;
+    float add1,add2,mult1,mult2;
 
-    float mult1, mult2;
+
 
     printf("Please enter an option\n");
    status = scanf("%d" , option);
@@ -22,14 +23,14 @@ void main()
                 printf("Please enter two numbers to add together");
                 scanf("%f" , add1);
                 scanf("%f" , add2);
-                add(add1,add2);
+                printf("The addition of %.2f and %.2f is %.2f",add1,add2,add(add1,add2));
                 break;
             case 2:
                 printf("Multiplying\n");
-                printf("Please enter two numbers to multiply by each other")
-                scanf("%f" , mult1);
-                scanf("%f", mult2);
-                multiply(mult1, mult2);
+                printf("Please enter two numbers to multiply by each other");
+                scanf("%f" , &mult1);
+                scanf("%f", &mult2);
+                printf("The multiplication of %.2f and %.2f is %.2f",mult1,mult2,multiply(mult1,mult2));
                 break;
             case 3:
                 break;
