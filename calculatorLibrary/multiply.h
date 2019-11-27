@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-float multiply(float num1 , float num2)
+float multiply(float mult1 , float mult2)
 {
-    return num1 * num2;
+    return mult1 * mult2;
 
 }
 
