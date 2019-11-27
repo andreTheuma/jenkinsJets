@@ -1,2 +1,2 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libcalculatorLibrary.a  CMakeFiles/calculatorLibrary.dir/library.c.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libcalculatorLibrary.a
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libcalculatorLibrary.a  CMakeFiles/calculatorLibrary.dir/library.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libcalculatorLibrary.a
