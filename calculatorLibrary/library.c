@@ -10,7 +10,8 @@ int main(void)
     int status;
     float num1, num2;
 
-do
+
+    do
 
     {
         printf("\n1.Addition\n2.Multiplication\n3.Subtraction\n4.Division\n");
@@ -30,6 +31,8 @@ do
                 case 2:
                 printf("Multiplying\n");
                 printf("Please enter two numbers to multiply by each other");
+                scanf("%f" , &num1);
+                scanf("%f", &num2);
                 scanf("%f" , &num1);
                 scanf("%f", &num2);
                 printf("The multiplication of %.2f and %.2f is %.2f",num1,num2,multiply(num1,num2));
