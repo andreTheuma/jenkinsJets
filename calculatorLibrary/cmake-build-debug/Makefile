@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named CalLibrary
+
+# Build rule for target.
+CalLibrary: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CalLibrary
+.PHONY : CalLibrary
+
+# fast build rule for target.
+CalLibrary/fast:
+	$(MAKE) -f CMakeFiles/CalLibrary.dir/build.make CMakeFiles/CalLibrary.dir/build
+.PHONY : CalLibrary/fast
+
+#=============================================================================
 # Target rules for targets named calculatorLibrary
 
 # Build rule for target.
@@ -129,6 +142,7 @@ library.o: library.c.o
 
 # target to build an object file
 library.c.o:
+	$(MAKE) -f CMakeFiles/CalLibrary.dir/build.make CMakeFiles/CalLibrary.dir/library.c.o
 	$(MAKE) -f CMakeFiles/calculatorLibrary.dir/build.make CMakeFiles/calculatorLibrary.dir/library.c.o
 .PHONY : library.c.o
 
@@ -138,6 +152,7 @@ library.i: library.c.i
 
 # target to preprocess a source file
 library.c.i:
+	$(MAKE) -f CMakeFiles/CalLibrary.dir/build.make CMakeFiles/CalLibrary.dir/library.c.i
 	$(MAKE) -f CMakeFiles/calculatorLibrary.dir/build.make CMakeFiles/calculatorLibrary.dir/library.c.i
 .PHONY : library.c.i
 
@@ -147,6 +162,7 @@ library.s: library.c.s
 
 # target to generate assembly for a file
 library.c.s:
+	$(MAKE) -f CMakeFiles/CalLibrary.dir/build.make CMakeFiles/CalLibrary.dir/library.c.s
 	$(MAKE) -f CMakeFiles/calculatorLibrary.dir/build.make CMakeFiles/calculatorLibrary.dir/library.c.s
 .PHONY : library.c.s
 
@@ -158,6 +174,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... CalLibrary"
 	@echo "... calculatorLibrary"
 	@echo "... library.o"
 	@echo "... library.i"
