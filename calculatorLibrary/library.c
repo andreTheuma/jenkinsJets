@@ -4,7 +4,7 @@
 #include "add.h"
 #include <stdio.h>
 
-void main()
+int main(void)
 {
     int option;
     int status;
@@ -33,6 +33,8 @@ void main()
                 printf("Please enter two numbers to multiply by each other");
                 scanf("%f" , &num1);
                 scanf("%f", &num2);
+                scanf("%f" , &num1);
+                scanf("%f", &num2);
                 printf("The multiplication of %.2f and %.2f is %.2f",num1,num2,multiply(num1,num2));
                 break;
             case 3:
@@ -46,7 +48,7 @@ void main()
                 break;
         }
 
-    }
-        while (status == 1);
+    } while (status == 1);
+    return 0;
 }
 
