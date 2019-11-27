@@ -5,10 +5,13 @@
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 >>>>>>> 099e98fc27b97302ba54c5d73c06efadc06b6d53
+>>>>>>> d9cb5347e232f0201926ae09d7c35e2631d0a3c7
 CMakeFiles/calculatorLibrary.dir/library.c.o: ../Subtract.h
 CMakeFiles/calculatorLibrary.dir/library.c.o: ../add.h
 CMakeFiles/calculatorLibrary.dir/library.c.o: ../library.c
 CMakeFiles/calculatorLibrary.dir/library.c.o: ../library.h
->>>>>>> 373985525ca95b294c3aea787d60ad0a38c9d8be
+CMakeFiles/calculatorLibrary.dir/library.c.o: ../multiply.h
 

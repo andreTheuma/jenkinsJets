@@ -35,29 +35,31 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = "/Users/andretheuma/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/192.6817.32/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = "/Users/andretheuma/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/192.6817.32/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary"
+CMAKE_SOURCE_DIR = "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/CalLibrary.dir/all
 all: CMakeFiles/calculatorLibrary.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
+clean: CMakeFiles/CalLibrary.dir/clean
 clean: CMakeFiles/calculatorLibrary.dir/clean
 
 .PHONY : clean
@@ -68,20 +70,47 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
+# Target rules for target CMakeFiles/CalLibrary.dir
+
+# All Build rule for target.
+CMakeFiles/CalLibrary.dir/all:
+	$(MAKE) -f CMakeFiles/CalLibrary.dir/build.make CMakeFiles/CalLibrary.dir/depend
+	$(MAKE) -f CMakeFiles/CalLibrary.dir/build.make CMakeFiles/CalLibrary.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target CalLibrary"
+.PHONY : CMakeFiles/CalLibrary.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/CalLibrary.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CalLibrary.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/CalLibrary.dir/rule
+
+# Convenience name for target.
+CalLibrary: CMakeFiles/CalLibrary.dir/rule
+
+.PHONY : CalLibrary
+
+# clean rule for target.
+CMakeFiles/CalLibrary.dir/clean:
+	$(MAKE) -f CMakeFiles/CalLibrary.dir/build.make CMakeFiles/CalLibrary.dir/clean
+.PHONY : CMakeFiles/CalLibrary.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/calculatorLibrary.dir
 
 # All Build rule for target.
 CMakeFiles/calculatorLibrary.dir/all:
 	$(MAKE) -f CMakeFiles/calculatorLibrary.dir/build.make CMakeFiles/calculatorLibrary.dir/depend
 	$(MAKE) -f CMakeFiles/calculatorLibrary.dir/build.make CMakeFiles/calculatorLibrary.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target calculatorLibrary"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles" --progress-num=3,4 "Built target calculatorLibrary"
 .PHONY : CMakeFiles/calculatorLibrary.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/calculatorLibrary.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/calculatorLibrary.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/calculatorLibrary.dir/rule
 
 # Convenience name for target.
