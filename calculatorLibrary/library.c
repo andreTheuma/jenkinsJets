@@ -4,25 +4,18 @@
 #include "add.h"
 #include <stdio.h>
 
-void main()
+int main(void)
 {
     int option;
     int status;
-<<<<<<< HEAD
-
-    float num1, num2;
-
-    float add1,add2,mult1,mult2;
 
     printf("Please enter an option\n");
     status = scanf("%d" , &option);
 
-    do
-=======
     float num1, num2;
 
 do
->>>>>>> 12a9a36f8c8d4c34d01082d1bc2d69925bc12641
+
     {
         printf("Please enter an option\n");
         status = scanf("%d" , &option);
@@ -32,10 +25,10 @@ do
         {
             case 1:
                 printf("Adding\n");
-<<<<<<< HEAD
 
-=======
->>>>>>> 12a9a36f8c8d4c34d01082d1bc2d69925bc12641
+
+
+
                 printf("Please enter two numbers to add together: ");
                 scanf("%f" , &num1);
                 scanf("%f" , &num2);
@@ -45,13 +38,10 @@ do
             case 2:
                 printf("Multiplying\n");
                 printf("Please enter two numbers to multiply by each other");
-<<<<<<< HEAD
-                scanf("%f" , &mult1);
-                scanf("%f", &mult2);
-=======
+
                 scanf("%f" , &num1);
                 scanf("%f", &num2);
->>>>>>> 12a9a36f8c8d4c34d01082d1bc2d69925bc12641
+
                 printf("The multiplication of %.2f and %.2f is %.2f",num1,num2,multiply(num1,num2));
                 break;
             case 3:
@@ -65,7 +55,7 @@ do
                 break;
         }
 
-    }
-        while (status == 1);
+    } while (status == 1);
+    return 0;
 }
 
