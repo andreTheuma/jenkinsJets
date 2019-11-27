@@ -8,6 +8,7 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
+<<<<<<< HEAD
 				<Option working_dir="/Users/andretheuma/Documents/Andre /Andre&apos;s documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
@@ -40,16 +41,56 @@
 			<Target title="CalLibrary">
 				<Option output="/Users/andretheuma/Documents/Andre /Andre&apos;s documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CalLibrary" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/andretheuma/Documents/Andre /Andre&apos;s documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug"/>
+=======
+				<Option working_dir="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CalLibrary">
+				<Option output="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CalLibrary" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug"/>
+>>>>>>> fecb3a3d8ba53a141c5b28a13a753822aa59e0f6
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+<<<<<<< HEAD
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+=======
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+>>>>>>> fecb3a3d8ba53a141c5b28a13a753822aa59e0f6
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
+<<<<<<< HEAD
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/andretheuma/Documents/Andre\ /Andre&apos;s\ documents\ /Programming/C/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 CalLibrary"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andretheuma/Documents/Andre\ /Andre&apos;s\ documents\ /Programming/C/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andretheuma/Documents/Andre\ /Andre&apos;s\ documents\ /Programming/C/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -59,16 +100,33 @@
 			<Target title="CalLibrary/fast">
 				<Option output="/Users/andretheuma/Documents/Andre /Andre&apos;s documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CalLibrary" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/andretheuma/Documents/Andre /Andre&apos;s documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug"/>
+=======
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 CalLibrary"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CalLibrary/fast">
+				<Option output="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CalLibrary" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug"/>
+>>>>>>> fecb3a3d8ba53a141c5b28a13a753822aa59e0f6
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+<<<<<<< HEAD
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+=======
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+>>>>>>> fecb3a3d8ba53a141c5b28a13a753822aa59e0f6
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
+<<<<<<< HEAD
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/andretheuma/Documents/Andre\ /Andre&apos;s\ documents\ /Programming/C/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 CalLibrary/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andretheuma/Documents/Andre\ /Andre&apos;s\ documents\ /Programming/C/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andretheuma/Documents/Andre\ /Andre&apos;s\ documents\ /Programming/C/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -78,16 +136,33 @@
 			<Target title="calculatorLibrary">
 				<Option output="/Users/andretheuma/Documents/Andre /Andre&apos;s documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/libcalculatorLibrary.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/andretheuma/Documents/Andre /Andre&apos;s documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug"/>
+=======
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 CalLibrary/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="calculatorLibrary">
+				<Option output="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/libcalculatorLibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug"/>
+>>>>>>> fecb3a3d8ba53a141c5b28a13a753822aa59e0f6
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+<<<<<<< HEAD
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+=======
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+>>>>>>> fecb3a3d8ba53a141c5b28a13a753822aa59e0f6
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
+<<<<<<< HEAD
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/andretheuma/Documents/Andre\ /Andre&apos;s\ documents\ /Programming/C/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 calculatorLibrary"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andretheuma/Documents/Andre\ /Andre&apos;s\ documents\ /Programming/C/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andretheuma/Documents/Andre\ /Andre&apos;s\ documents\ /Programming/C/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -97,16 +172,33 @@
 			<Target title="calculatorLibrary/fast">
 				<Option output="/Users/andretheuma/Documents/Andre /Andre&apos;s documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/libcalculatorLibrary.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/andretheuma/Documents/Andre /Andre&apos;s documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug"/>
+=======
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 calculatorLibrary"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="calculatorLibrary/fast">
+				<Option output="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/libcalculatorLibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug"/>
+>>>>>>> fecb3a3d8ba53a141c5b28a13a753822aa59e0f6
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+<<<<<<< HEAD
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+=======
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+>>>>>>> fecb3a3d8ba53a141c5b28a13a753822aa59e0f6
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
+<<<<<<< HEAD
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/andretheuma/Documents/Andre\ /Andre&apos;s\ documents\ /Programming/C/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 calculatorLibrary/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/andretheuma/Documents/Andre\ /Andre&apos;s\ documents\ /Programming/C/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/andretheuma/Documents/Andre\ /Andre&apos;s\ documents\ /Programming/C/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -125,6 +217,26 @@
 			<Option target="calculatorLibrary"/>
 		</Unit>
 		<Unit filename="/Users/andretheuma/Documents/Andre /Andre&apos;s documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/CMakeLists.txt">
+=======
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 calculatorLibrary/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/Subtract.h">
+			<Option target="calculatorLibrary"/>
+		</Unit>
+		<Unit filename="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.c">
+			<Option target="CalLibrary"/>
+			<Option target="calculatorLibrary"/>
+		</Unit>
+		<Unit filename="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.h">
+			<Option target="calculatorLibrary"/>
+		</Unit>
+		<Unit filename="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/CMakeLists.txt">
+>>>>>>> fecb3a3d8ba53a141c5b28a13a753822aa59e0f6
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
