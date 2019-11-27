@@ -78,6 +78,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/Subtract.h">
+			<Option target="calculatorLibrary"/>
+		</Unit>
 		<Unit filename="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.c">
 			<Option target="calculatorLibrary"/>
 		</Unit>

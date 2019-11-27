@@ -1,5 +1,6 @@
 #include "multiply.h"
 #include "library.h"
+#include "Subtract.h"
 #include "add.h"
 #include <stdio.h>
 
@@ -12,7 +13,7 @@ void main()
 
 
     printf("Please enter an option\n");
-   status = scanf("%d" , option);
+    status = scanf("%d" , &option);
 
     do
     {
@@ -21,8 +22,8 @@ void main()
             case 1:
                 printf("Adding\n");
                 printf("Please enter two numbers to add together");
-                scanf("%f" , add1);
-                scanf("%f" , add2);
+                scanf("%f" , &add1);
+                scanf("%f" , &add2);
                 printf("The addition of %.2f and %.2f is %.2f",add1,add2,add(add1,add2));
                 break;
             case 2:

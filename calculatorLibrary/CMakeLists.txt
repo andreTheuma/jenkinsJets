@@ -3,4 +3,4 @@ project(calculatorLibrary C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_library(calculatorLibrary library.c library.h)
+add_library(calculatorLibrary library.c library.h Subtract.h)
