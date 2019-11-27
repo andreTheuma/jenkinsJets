@@ -10,7 +10,8 @@ int main(void)
     int status;
     float num1, num2;
 
-do
+
+    do
 
     {
         printf("1.Addition\n2.Multiplication\n3.Subtraction\n4.Division\n");
@@ -40,7 +41,7 @@ do
                 printf("Please enter 2 numbers to subtract the second from the first: ");
                 scanf("%f" , &num1);
                 scanf("%f" , &num2);
-                printf("The result of %.2f minus %.2f is %.2f",num1,num2,add(num1,num2));
+                printf("The result of %.2f minus %.2f is %.2f",num1,num2,Subtract(num1,num2));
                 break;
                 
                 default:
