@@ -14,7 +14,7 @@ int main(void)
     do
 
     {
-        printf("1.Addition\n2.Multiplication\n3.Subtraction\n4.Division\n");
+        printf("\n1.Addition\n2.Multiplication\n3.Subtraction\n4.Division\n");
         printf("Please enter an option\n");
         status = scanf("%d" , &option);
 
