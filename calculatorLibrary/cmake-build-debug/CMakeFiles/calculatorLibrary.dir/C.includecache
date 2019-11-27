@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.c
+library.h
+/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.h
+stdio.h
+-
+
+/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.h
+
