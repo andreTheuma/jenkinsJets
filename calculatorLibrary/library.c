@@ -10,13 +10,12 @@ void main()
     int status;
     float add1,add2,mult1,mult2;
 
-
-
-    printf("Please enter an option\n");
-    status = scanf("%d" , &option);
-
     do
     {
+        printf("Please enter an option\n");
+        status = scanf("%d" , &option);
+        printf("1.Addition\n2.Multiplication\n3.Subtraction\n4.Division\n");
+
         switch(option)
         {
             case 1:
