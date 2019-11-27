@@ -43,24 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /Users/lukedalli/jenkinsJets/calculatorLibrary
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/lukedalli/jenkinsJets/calculatorLibrary/cmake-build-debug
-=======
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary"
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug"
-=======
-CMAKE_SOURCE_DIR = "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary"
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug"
->>>>>>> e97468405f37a52e66883be2a4a730a95912e5a8
->>>>>>> aa142268a87b7fa0455073be264d9186764a2bca
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CalLibrary.dir/depend.make
@@ -73,25 +59,8 @@ include CMakeFiles/CalLibrary.dir/flags.make
 
 CMakeFiles/CalLibrary.dir/library.c.o: CMakeFiles/CalLibrary.dir/flags.make
 CMakeFiles/CalLibrary.dir/library.c.o: ../library.c
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lukedalli/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CalLibrary.dir/library.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CalLibrary.dir/library.c.o   -c /Users/lukedalli/jenkinsJets/calculatorLibrary/library.c
-=======
-<<<<<<< HEAD
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CalLibrary.dir/library.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CalLibrary.dir/library.c.o   -c "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.c"
-
-CMakeFiles/CalLibrary.dir/library.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CalLibrary.dir/library.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.c" > CMakeFiles/CalLibrary.dir/library.c.i
-
-CMakeFiles/CalLibrary.dir/library.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CalLibrary.dir/library.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.c" -o CMakeFiles/CalLibrary.dir/library.c.s
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CalLibrary.dir/library.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CalLibrary.dir/library.c.o   -c "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.c"
->>>>>>> aa142268a87b7fa0455073be264d9186764a2bca
 
 CMakeFiles/CalLibrary.dir/library.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CalLibrary.dir/library.c.i"
@@ -99,12 +68,7 @@ CMakeFiles/CalLibrary.dir/library.c.i: cmake_force
 
 CMakeFiles/CalLibrary.dir/library.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CalLibrary.dir/library.c.s"
-<<<<<<< HEAD
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lukedalli/jenkinsJets/calculatorLibrary/library.c -o CMakeFiles/CalLibrary.dir/library.c.s
-=======
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.c" -o CMakeFiles/CalLibrary.dir/library.c.s
->>>>>>> e97468405f37a52e66883be2a4a730a95912e5a8
->>>>>>> aa142268a87b7fa0455073be264d9186764a2bca
 
 # Object files for target CalLibrary
 CalLibrary_OBJECTS = \
@@ -116,15 +80,7 @@ CalLibrary_EXTERNAL_OBJECTS =
 CalLibrary: CMakeFiles/CalLibrary.dir/library.c.o
 CalLibrary: CMakeFiles/CalLibrary.dir/build.make
 CalLibrary: CMakeFiles/CalLibrary.dir/link.txt
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/lukedalli/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable CalLibrary"
-=======
-<<<<<<< HEAD
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable CalLibrary"
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable CalLibrary"
->>>>>>> e97468405f37a52e66883be2a4a730a95912e5a8
->>>>>>> aa142268a87b7fa0455073be264d9186764a2bca
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CalLibrary.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -137,14 +93,6 @@ CMakeFiles/CalLibrary.dir/clean:
 .PHONY : CMakeFiles/CalLibrary.dir/clean
 
 CMakeFiles/CalLibrary.dir/depend:
-<<<<<<< HEAD
 	cd /Users/lukedalli/jenkinsJets/calculatorLibrary/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/lukedalli/jenkinsJets/calculatorLibrary /Users/lukedalli/jenkinsJets/calculatorLibrary /Users/lukedalli/jenkinsJets/calculatorLibrary/cmake-build-debug /Users/lukedalli/jenkinsJets/calculatorLibrary/cmake-build-debug /Users/lukedalli/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles/CalLibrary.dir/DependInfo.cmake --color=$(COLOR)
-=======
-<<<<<<< HEAD
-	cd "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary" "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary" "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug" "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug" "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles/CalLibrary.dir/DependInfo.cmake" --color=$(COLOR)
-=======
-	cd "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary" "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary" "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug" "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug" "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles/CalLibrary.dir/DependInfo.cmake" --color=$(COLOR)
->>>>>>> e97468405f37a52e66883be2a4a730a95912e5a8
->>>>>>> aa142268a87b7fa0455073be264d9186764a2bca
 .PHONY : CMakeFiles/CalLibrary.dir/depend
 

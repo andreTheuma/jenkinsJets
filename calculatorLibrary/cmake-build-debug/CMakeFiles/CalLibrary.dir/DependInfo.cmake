@@ -4,15 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-<<<<<<< HEAD
   "/Users/lukedalli/jenkinsJets/calculatorLibrary/library.c" "/Users/lukedalli/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles/CalLibrary.dir/library.c.o"
-=======
-<<<<<<< HEAD
-  "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.c" "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles/CalLibrary.dir/library.c.o"
-=======
-  "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.c" "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles/CalLibrary.dir/library.c.o"
->>>>>>> e97468405f37a52e66883be2a4a730a95912e5a8
->>>>>>> aa142268a87b7fa0455073be264d9186764a2bca
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
