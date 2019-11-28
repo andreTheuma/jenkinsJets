@@ -11,7 +11,7 @@ int main(void)
     float num1, num2;
 
 
-    do
+    dop
 
     {
         printf("\n1.Addition\n2.Multiplication\n3.Subtraction\n4.Division\n");
