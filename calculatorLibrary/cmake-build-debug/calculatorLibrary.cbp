@@ -334,12 +334,15 @@
 			<Option target="CalLibrary"/>
 			<Option target="calculatorLibrary"/>
 		</Unit>
+<<<<<<< HEAD
+=======
 		<Unit filename="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.h">
 			<Option target="calculatorLibrary"/>
 		</Unit>
 <<<<<<< HEAD
 		<Unit filename="/Users/lukedalli/jenkinsJets/calculatorLibrary/CMakeLists.txt">
 =======
+>>>>>>> 44a2706b2629a82aa43a8e23afc6fe55a8f891fb
 		<Unit filename="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/CMakeLists.txt">
 >>>>>>> fecb3a3d8ba53a141c5b28a13a753822aa59e0f6
 >>>>>>> a729c79e69fa64096a551d70ddeaf32610b1fe05
