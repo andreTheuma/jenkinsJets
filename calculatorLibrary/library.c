@@ -55,7 +55,7 @@ int main(void)
                 default:
                 break;
         }
-
+        option = 0;
     } while (status == 1);
     return 0;
 }
