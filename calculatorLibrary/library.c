@@ -1,6 +1,7 @@
 #include "multiply.h"
 #include "Subtract.h"
 #include "add.h"
+#include "division.h"
 #include <stdio.h>
 
 int main(void)
@@ -42,7 +43,15 @@ int main(void)
                 scanf("%f" , &num2);
                 printf("The result of %.2f minus %.2f is %.2f",num1,num2,Subtract(num1,num2));
                 break;
-                
+
+                case 4:
+                printf("Dividing\n");
+                printf("Please enter 2 numbers to divide the second from the first");
+                scanf("%f" , &num1);
+                scanf("%f" , &num2);
+                printf("The result of %.2f divided by %.2f is %2.f",num1,num2,division(num1,num2));
+                break;
+
                 default:
                 break;
         }

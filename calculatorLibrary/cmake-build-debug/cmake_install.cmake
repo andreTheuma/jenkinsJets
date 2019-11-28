@@ -1,4 +1,16 @@
+<<<<<<< HEAD
 # Install script for directory: /Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary
+=======
+<<<<<<< HEAD
+# Install script for directory: /Users/lukedalli/jenkinsJets/calculatorLibrary
+=======
+<<<<<<< HEAD
+# Install script for directory: /Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary
+=======
+# Install script for directory: /Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary
+>>>>>>> fecb3a3d8ba53a141c5b28a13a753822aa59e0f6
+>>>>>>> a729c79e69fa64096a551d70ddeaf32610b1fe05
+>>>>>>> 2eff18acf8ee21878d08f4e731846b1433ec6795
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +52,17 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+=======
+<<<<<<< HEAD
+file(WRITE "/Users/lukedalli/jenkinsJets/calculatorLibrary/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+=======
+<<<<<<< HEAD
+file(WRITE "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> fecb3a3d8ba53a141c5b28a13a753822aa59e0f6
+>>>>>>> a729c79e69fa64096a551d70ddeaf32610b1fe05
+>>>>>>> 2eff18acf8ee21878d08f4e731846b1433ec6795
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

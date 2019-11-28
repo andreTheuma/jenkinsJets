@@ -1,4 +1,4 @@
-float Subtract(float x, float y){
-
+float Subtract(float x, float y)
+{
     return x - y;
 }

@@ -48,10 +48,30 @@ RM = "/Users/andretheuma/Library/Application Support/JetBrains/Toolbox/apps/CLio
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+CMAKE_SOURCE_DIR = /Users/lukedalli/jenkinsJets/calculatorLibrary
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /Users/lukedalli/jenkinsJets/calculatorLibrary/cmake-build-debug
+=======
+<<<<<<< HEAD
+>>>>>>> 2eff18acf8ee21878d08f4e731846b1433ec6795
 CMAKE_SOURCE_DIR = "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug"
+<<<<<<< HEAD
+=======
+=======
+CMAKE_SOURCE_DIR = "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary"
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug"
+>>>>>>> fecb3a3d8ba53a141c5b28a13a753822aa59e0f6
+>>>>>>> a729c79e69fa64096a551d70ddeaf32610b1fe05
+>>>>>>> 2eff18acf8ee21878d08f4e731846b1433ec6795
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +100,27 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles" "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles" 0
+=======
+<<<<<<< HEAD
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lukedalli/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles /Users/lukedalli/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles/progress.marks
+	$(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lukedalli/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles 0
+=======
+<<<<<<< HEAD
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles" "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles/progress.marks"
+	$(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles" 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles" "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles/progress.marks"
+	$(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles" 0
+>>>>>>> fecb3a3d8ba53a141c5b28a13a753822aa59e0f6
+>>>>>>> a729c79e69fa64096a551d70ddeaf32610b1fe05
+>>>>>>> 2eff18acf8ee21878d08f4e731846b1433ec6795
 .PHONY : all
 
 # The main clean target
