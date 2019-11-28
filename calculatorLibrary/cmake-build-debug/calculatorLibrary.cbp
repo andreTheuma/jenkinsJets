@@ -125,9 +125,6 @@
 			<Option target="CalLibrary"/>
 			<Option target="calculatorLibrary"/>
 		</Unit>
-		<Unit filename="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.h">
-			<Option target="calculatorLibrary"/>
-		</Unit>
 		<Unit filename="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
