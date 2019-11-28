@@ -49,19 +49,19 @@ CMAKE_SOURCE_DIR = "/Users/ethanlethridge/Collaborative Project Calculator/jenki
 CMAKE_BINARY_DIR = "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug"
 
 # Include any dependencies generated for this target.
-include CMakeFiles/calculatorLibrary.dir/depend.make
+include CMakeFiles/multiply.h.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/calculatorLibrary.dir/progress.make
+include CMakeFiles/multiply.h.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/calculatorLibrary.dir/flags.make
+include CMakeFiles/multiply.h.dir/flags.make
 
-CMakeFiles/calculatorLibrary.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/calculatorLibrary.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/calculatorLibrary.dir/clean
+CMakeFiles/multiply.h.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/multiply.h.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/multiply.h.dir/clean
 
-CMakeFiles/calculatorLibrary.dir/depend:
-	cd "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary" "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary" "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug" "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug" "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles/calculatorLibrary.dir/DependInfo.cmake" --color=$(COLOR)
-.PHONY : CMakeFiles/calculatorLibrary.dir/depend
+CMakeFiles/multiply.h.dir/depend:
+	cd "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary" "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary" "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug" "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug" "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles/multiply.h.dir/DependInfo.cmake" --color=$(COLOR)
+.PHONY : CMakeFiles/multiply.h.dir/depend
 

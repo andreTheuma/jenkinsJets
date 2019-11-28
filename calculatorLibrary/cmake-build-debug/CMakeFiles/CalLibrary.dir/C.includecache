@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/Subtract.h
+
+/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/add.h
+
+/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/division.h
+
+/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.c
+multiply.h
+/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/multiply.h
+Subtract.h
+/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/Subtract.h
+add.h
+/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/add.h
+division.h
+/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/division.h
+stdio.h
+-
+
+/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/multiply.h
+

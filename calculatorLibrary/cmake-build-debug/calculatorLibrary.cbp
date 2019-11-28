@@ -77,8 +77,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="calculatorLibrary">
-				<Option output="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/libcalculatorLibrary.a" prefix_auto="0" extension_auto="0"/>
+			<Target title="multiply.h">
+				<Option output="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/libmultiply.h.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
@@ -91,14 +91,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 calculatorLibrary"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 multiply.h"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="calculatorLibrary/fast">
-				<Option output="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/libcalculatorLibrary.a" prefix_auto="0" extension_auto="0"/>
+			<Target title="multiply.h/fast">
+				<Option output="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/libmultiply.h.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
@@ -111,7 +111,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 calculatorLibrary/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 multiply.h/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ethanlethridge/Collaborative\ Project\ Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -119,11 +119,16 @@
 			</Target>
 		</Build>
 		<Unit filename="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/Subtract.h">
-			<Option target="calculatorLibrary"/>
+			<Option target="multiply.h"/>
+		</Unit>
+		<Unit filename="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/add.h">
+			<Option target="multiply.h"/>
+		</Unit>
+		<Unit filename="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/division.h">
+			<Option target="multiply.h"/>
 		</Unit>
 		<Unit filename="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/library.c">
 			<Option target="CalLibrary"/>
-			<Option target="calculatorLibrary"/>
 		</Unit>
 		<Unit filename="/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

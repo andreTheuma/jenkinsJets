@@ -1,4 +1,4 @@
-float division(division1, division2)
+float division(div1, div2)
 {
-    return division1/division2;
+    return div1/div2;
 }
