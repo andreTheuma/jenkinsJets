@@ -7,5 +7,7 @@
 -- Detecting C compile features
 -- Detecting C compile features - done
 -- Configuring done
+CMake Error: Cannot determine link language for target "multiply.h".
+CMake Error: CMake can not determine linker language for target: multiply.h
 -- Generating done
--- Build files have been written to: /Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug
+CMake Generate step failed.  Build files cannot be regenerated correctly.

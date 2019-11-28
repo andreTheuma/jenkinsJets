@@ -54,13 +54,13 @@ CMAKE_BINARY_DIR = "/Users/andretheuma/Documents/Andre /Andre's documents /Progr
 
 # The main recursive "all" target.
 all: CMakeFiles/CalLibrary.dir/all
-all: CMakeFiles/calculatorLibrary.dir/all
+all: CMakeFiles/multiply.h.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
 clean: CMakeFiles/CalLibrary.dir/clean
-clean: CMakeFiles/calculatorLibrary.dir/clean
+clean: CMakeFiles/multiply.h.dir/clean
 
 .PHONY : clean
 
@@ -97,31 +97,31 @@ CMakeFiles/CalLibrary.dir/clean:
 .PHONY : CMakeFiles/CalLibrary.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/calculatorLibrary.dir
+# Target rules for target CMakeFiles/multiply.h.dir
 
 # All Build rule for target.
-CMakeFiles/calculatorLibrary.dir/all:
-	$(MAKE) -f CMakeFiles/calculatorLibrary.dir/build.make CMakeFiles/calculatorLibrary.dir/depend
-	$(MAKE) -f CMakeFiles/calculatorLibrary.dir/build.make CMakeFiles/calculatorLibrary.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles" --progress-num=3,4 "Built target calculatorLibrary"
-.PHONY : CMakeFiles/calculatorLibrary.dir/all
+CMakeFiles/multiply.h.dir/all:
+	$(MAKE) -f CMakeFiles/multiply.h.dir/build.make CMakeFiles/multiply.h.dir/depend
+	$(MAKE) -f CMakeFiles/multiply.h.dir/build.make CMakeFiles/multiply.h.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles" --progress-num= "Built target multiply.h"
+.PHONY : CMakeFiles/multiply.h.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/calculatorLibrary.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles" 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/calculatorLibrary.dir/all
+CMakeFiles/multiply.h.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/calculatorLibrary.dir/rule
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/multiply.h.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/multiply.h.dir/rule
 
 # Convenience name for target.
-calculatorLibrary: CMakeFiles/calculatorLibrary.dir/rule
+multiply.h: CMakeFiles/multiply.h.dir/rule
 
-.PHONY : calculatorLibrary
+.PHONY : multiply.h
 
 # clean rule for target.
-CMakeFiles/calculatorLibrary.dir/clean:
-	$(MAKE) -f CMakeFiles/calculatorLibrary.dir/build.make CMakeFiles/calculatorLibrary.dir/clean
-.PHONY : CMakeFiles/calculatorLibrary.dir/clean
+CMakeFiles/multiply.h.dir/clean:
+	$(MAKE) -f CMakeFiles/multiply.h.dir/build.make CMakeFiles/multiply.h.dir/clean
+.PHONY : CMakeFiles/multiply.h.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
