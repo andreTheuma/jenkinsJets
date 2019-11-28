@@ -3,7 +3,7 @@
 
 CMakeFiles/calculatorLibrary.dir/library.c.o: ../Subtract.h
 CMakeFiles/calculatorLibrary.dir/library.c.o: ../add.h
+CMakeFiles/calculatorLibrary.dir/library.c.o: ../division.h
 CMakeFiles/calculatorLibrary.dir/library.c.o: ../library.c
-CMakeFiles/calculatorLibrary.dir/library.c.o: ../library.h
 CMakeFiles/calculatorLibrary.dir/library.c.o: ../multiply.h
 

@@ -49,7 +49,7 @@ int main(void)
                 printf("Please enter 2 numbers to divide the second from the first");
                 scanf("%f" , &num1);
                 scanf("%f" , &num2);
-                printf("The result of %.2f divided by %.2f is %2.f",num1,num2,division(num1,num2));
+                printf("The result of %.2f divided by %.2f is %.2f",num1,num2,division(num1,num2));
                 break;
 
                 default:

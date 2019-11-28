@@ -1,24 +1,4 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-/Users/lukedalli/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/lukedalli/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/lukedalli/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles/CalLibrary.dir
-/Users/lukedalli/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles/calculatorLibrary.dir
-=======
-<<<<<<< HEAD
->>>>>>> 2eff18acf8ee21878d08f4e731846b1433ec6795
 /Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles/CalLibrary.dir
 /Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles/calculatorLibrary.dir
-<<<<<<< HEAD
-=======
-=======
-/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles/CalLibrary.dir
-/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles/calculatorLibrary.dir
->>>>>>> fecb3a3d8ba53a141c5b28a13a753822aa59e0f6
->>>>>>> a729c79e69fa64096a551d70ddeaf32610b1fe05
->>>>>>> 2eff18acf8ee21878d08f4e731846b1433ec6795
