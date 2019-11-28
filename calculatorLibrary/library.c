@@ -18,7 +18,7 @@ int main(void)
         printf("Please enter an option\n");
         status = scanf("%d" , &option);
 
-        //switch(option)
+      
         {
             case 1:
                 printf("Adding\n");
