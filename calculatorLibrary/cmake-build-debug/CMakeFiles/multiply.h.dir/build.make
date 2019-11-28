@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/andretheuma/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/192.6817.32/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = "/Users/andretheuma/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/192.6817.32/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary"
+CMAKE_SOURCE_DIR = /Users/lukedalli/jenkinsJets/calculatorLibrary
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug"
+CMAKE_BINARY_DIR = /Users/lukedalli/jenkinsJets/calculatorLibrary/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/multiply.h.dir/depend.make
@@ -62,6 +62,6 @@ CMakeFiles/multiply.h.dir/clean:
 .PHONY : CMakeFiles/multiply.h.dir/clean
 
 CMakeFiles/multiply.h.dir/depend:
-	cd "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary" "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary" "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug" "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug" "/Users/andretheuma/Documents/Andre /Andre's documents /Programming/C/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles/multiply.h.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /Users/lukedalli/jenkinsJets/calculatorLibrary/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/lukedalli/jenkinsJets/calculatorLibrary /Users/lukedalli/jenkinsJets/calculatorLibrary /Users/lukedalli/jenkinsJets/calculatorLibrary/cmake-build-debug /Users/lukedalli/jenkinsJets/calculatorLibrary/cmake-build-debug /Users/lukedalli/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles/multiply.h.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/multiply.h.dir/depend
 
