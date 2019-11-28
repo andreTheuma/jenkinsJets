@@ -124,17 +124,17 @@ CalLibrary/fast:
 .PHONY : CalLibrary/fast
 
 #=============================================================================
-# Target rules for targets named calculatorLibrary
+# Target rules for targets named multiply.h
 
 # Build rule for target.
-calculatorLibrary: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 calculatorLibrary
-.PHONY : calculatorLibrary
+multiply.h: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 multiply.h
+.PHONY : multiply.h
 
 # fast build rule for target.
-calculatorLibrary/fast:
-	$(MAKE) -f CMakeFiles/calculatorLibrary.dir/build.make CMakeFiles/calculatorLibrary.dir/build
-.PHONY : calculatorLibrary/fast
+multiply.h/fast:
+	$(MAKE) -f CMakeFiles/multiply.h.dir/build.make CMakeFiles/multiply.h.dir/build
+.PHONY : multiply.h/fast
 
 library.o: library.c.o
 
@@ -143,7 +143,6 @@ library.o: library.c.o
 # target to build an object file
 library.c.o:
 	$(MAKE) -f CMakeFiles/CalLibrary.dir/build.make CMakeFiles/CalLibrary.dir/library.c.o
-	$(MAKE) -f CMakeFiles/calculatorLibrary.dir/build.make CMakeFiles/calculatorLibrary.dir/library.c.o
 .PHONY : library.c.o
 
 library.i: library.c.i
@@ -153,7 +152,6 @@ library.i: library.c.i
 # target to preprocess a source file
 library.c.i:
 	$(MAKE) -f CMakeFiles/CalLibrary.dir/build.make CMakeFiles/CalLibrary.dir/library.c.i
-	$(MAKE) -f CMakeFiles/calculatorLibrary.dir/build.make CMakeFiles/calculatorLibrary.dir/library.c.i
 .PHONY : library.c.i
 
 library.s: library.c.s
@@ -163,7 +161,6 @@ library.s: library.c.s
 # target to generate assembly for a file
 library.c.s:
 	$(MAKE) -f CMakeFiles/CalLibrary.dir/build.make CMakeFiles/CalLibrary.dir/library.c.s
-	$(MAKE) -f CMakeFiles/calculatorLibrary.dir/build.make CMakeFiles/calculatorLibrary.dir/library.c.s
 .PHONY : library.c.s
 
 # Help Target
@@ -175,7 +172,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CalLibrary"
-	@echo "... calculatorLibrary"
+	@echo "... multiply.h"
 	@echo "... library.o"
 	@echo "... library.i"
 	@echo "... library.s"
