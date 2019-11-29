@@ -3,7 +3,5 @@ project(calculatorLibrary C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_library( multiply.h division.h add.h Subtract.h)
-
 set(file1 library.c )
 add_executable(CalLibrary ${file1})
