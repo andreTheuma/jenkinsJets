@@ -3,4 +3,4 @@ project(calculatorLibrary C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(CalLibrary ${file1})
+add_executable(CalLibrary library.c)
