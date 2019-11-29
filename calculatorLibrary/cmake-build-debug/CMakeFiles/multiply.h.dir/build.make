@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/lukedalli/jenkinsJets/calculatorLibrary
+CMAKE_SOURCE_DIR = "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/lukedalli/jenkinsJets/calculatorLibrary/cmake-build-debug
+CMAKE_BINARY_DIR = "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/multiply.h.dir/depend.make
@@ -62,6 +62,6 @@ CMakeFiles/multiply.h.dir/clean:
 .PHONY : CMakeFiles/multiply.h.dir/clean
 
 CMakeFiles/multiply.h.dir/depend:
-	cd /Users/lukedalli/jenkinsJets/calculatorLibrary/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/lukedalli/jenkinsJets/calculatorLibrary /Users/lukedalli/jenkinsJets/calculatorLibrary /Users/lukedalli/jenkinsJets/calculatorLibrary/cmake-build-debug /Users/lukedalli/jenkinsJets/calculatorLibrary/cmake-build-debug /Users/lukedalli/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles/multiply.h.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary" "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary" "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug" "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug" "/Users/ethanlethridge/Collaborative Project Calculator/jenkinsJets/calculatorLibrary/cmake-build-debug/CMakeFiles/multiply.h.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/multiply.h.dir/depend
 
